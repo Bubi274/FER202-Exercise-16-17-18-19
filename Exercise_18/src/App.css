@@ -1,0 +1,92 @@
+body {
+  background-color: #f3f4f6;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  color: #1f2937;
+}
+
+#root {
+  width: 100% !important;
+  max-width: 100% !important;
+  border-inline: none !important;
+  background: transparent !important;
+}
+
+.app-container {
+  max-width: 750px;
+  margin: 40px auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.exercises-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.dark-demo-box {
+  background-color: #212529;
+  border-radius: 6px;
+  padding: 40px;
+  color: #ffffff;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  min-height: 220px;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-center-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.counter-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn-counter {
+  background-color: #e9ecef;
+  color: #212529;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 10px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-counter:hover:not(:disabled) {
+  background-color: #dee2e6;
+}
+
+.btn-counter:active:not(:disabled) {
+  transform: scale(0.98);
+}
+
+.demo-result-text {
+  font-size: 26px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.exercise-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #ffffff;
+  letter-spacing: -0.5px;
+}
